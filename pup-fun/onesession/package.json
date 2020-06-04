@@ -1,0 +1,10 @@
+{
+  "name": "onesession",
+  "version": "1.0.0",
+  "description": "run a single pipe session",
+  "dependencies": {
+    "escape-html": "^1.0.3",
+    "puppeteer": "^1.9.0"
+  }
+}
+

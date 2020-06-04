@@ -1,0 +1,2 @@
+#!/bin/sh
+curl -X POST https://us-central1-cartonomouse.cloudfunctions.net/onesession -H "Content-Type:application/json"  -d '{"arg":"47917756D85256B51C784F52F030BB41F924EA14492C3FDE032CFEBB3A1CCB5C:94FCBF336D6BBF9C429CB14763D263CA"}'
