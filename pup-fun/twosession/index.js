@@ -42,11 +42,12 @@ function run (arg) {
     return new Promise(async (resolve, reject) => {
         try {
             const browser = await puppeteer.launch({args: ['--no-sandbox','--use-fake-ui-for-media-stream','--use-fake-device-for-media-stream']});
+            console.log(await browser.userAgent());
             const page = await browser.newPage();
-            var pipe = "https://rendezvous.zone/?clubId="+arg;
+            var pipe = "https://rendezvous.family/?twoId="+arg;
             addLogging(page);
             await page.goto(pipe);
-            console.log('browser in play');
+            console.log('chromium browser in play');
             await wait(5000);               
             await page.$eval( '#callAccept', but => but.click() );
             await wait(50000);               

@@ -1,6 +1,6 @@
 {
   "name": "twosession",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "run a single RDV session",
   "dependencies": {
     "escape-html": "^1.0.3",
