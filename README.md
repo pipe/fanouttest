@@ -1,7 +1,7 @@
 
 Generic tool for testing webRTC apps in development using google cloud functions
 
-The twosession directory includes an example that uses puppeteer to test https://rendezvous.family/
+The pup-fun/twosession directory includes an example that uses puppeteer to test https://rendezvous.family/
 
 To test your own app check this out and edit the files in twosession to refer to your (billable)
 google cloud project and to the webRTC app under test.
